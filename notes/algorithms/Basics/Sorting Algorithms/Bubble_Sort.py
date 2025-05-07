@@ -14,10 +14,14 @@ print("Sorted array:", sorted_arr)
 
 
 #note
-# Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the
+# Bubble Sort is a simple sorting algorithm that repeatedly steps through the list,
+#  compares adjacent elements and swaps them if they are in the wrong order. 
+# The pass through the
 
 # Bubble Sort Algorithm
-# Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+# Bubble Sort is a simple comparison-based sorting algorithm. 
+# It repeatedly steps through the list, compares adjacent elements, 
+# and swaps them if they are in the wrong order.
 
 # How it works:
 # Compare each pair of adjacent elements.
