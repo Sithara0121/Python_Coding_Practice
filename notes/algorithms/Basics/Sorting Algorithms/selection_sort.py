@@ -1,12 +1,19 @@
-def selection_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        min_index = i  # Assume the min element is at i
-        for j in range(i+1, n):
-            if arr[j] < arr[min_index]:  # Find the smallest element
+def selectionSort(nums):
+    # Traverse through all elements in the array
+    for i in range(len(nums)):
+        # Assume the minimum element is the first element in the unsorted part
+        min_index = i
+        
+        # Find the minimum element in the unsorted part of the array
+        for j in range(i+1, len(nums)):
+            if nums[j] < nums[min_index]:
                 min_index = j
-        arr[i], arr[min_index] = arr[min_index], arr[i]  # Swap the smallest element with the first unsorted element
-    return arr
+        
+        # Swap the found minimum element with the first element
+        if min_index != i:
+            nums[i], nums[min_index] = nums[min_index], nums[i]
+    
+    return nums
 
 # Example usage
 arr = [5, 1, 4, 2, 8]
